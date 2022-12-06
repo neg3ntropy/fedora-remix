@@ -25,7 +25,6 @@ gimp
 inkscape
 vlc
 brasero
-brasero-nautilus
 
 # productivity
 libreoffice-draw
