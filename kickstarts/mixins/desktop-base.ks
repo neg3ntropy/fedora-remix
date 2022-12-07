@@ -33,6 +33,9 @@ tmate
 exfat-utils
 ntpsec
 
+# Internet
+mozilla-ublock-origin
+
 %end
 
 

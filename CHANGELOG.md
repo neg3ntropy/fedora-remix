@@ -3,6 +3,9 @@
 ### Changed
 - Fedora 37
 
+### Added
+ - Ad blocking
+
 ## [36.0] - 2022-06-05
 
 ### Changed
