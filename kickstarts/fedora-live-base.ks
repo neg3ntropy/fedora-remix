@@ -104,17 +104,3 @@ touch /etc/machine-id
 
 %end
 
-
-%post --nochroot
-# For livecd-creator builds only (lorax/livemedia-creator handles this directly)
-if [ -n "$LIVE_ROOT" ]; then
-    cp "$INSTALL_ROOT"/usr/share/licenses/*-release-common/* "$LIVE_ROOT/"
-
-    # only installed on x86, x86_64
-    if [ -f /usr/bin/livecd-iso-to-disk ]; then
-        mkdir -p "$LIVE_ROOT/LiveOS"
-        cp /usr/bin/livecd-iso-to-disk "$LIVE_ROOT/LiveOS"
-    fi
-fi
-
-%end
