@@ -1,5 +1,5 @@
 FLAVOR=remix-gnome
-RELEASEVER=37
+RELEASEVER=38
 DEVICE=/dev/null # Override from command line for safety
 USE_PODMAN=yes
 
