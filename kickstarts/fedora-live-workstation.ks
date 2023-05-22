@@ -10,6 +10,8 @@
 #
 #include snippets/packagekit-cached-metadata.ks
 
+part / --size 7750
+
 %post
 
 # set livesys session type

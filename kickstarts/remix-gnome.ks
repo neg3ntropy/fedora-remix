@@ -3,6 +3,9 @@
 # Main kickstart for GNOME.
 
 %include fedora-live-workstation.ks
+
+part / --size 8500
+
 %include mixins/desktop-gnome.ks
 
 # main localization
