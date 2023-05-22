@@ -1,3 +1,11 @@
+## [38.0] - 2023-05-22
+
+### Changed
+- Fedora 38
+
+### Removed
+- MS Teams (discontinued by MS, use web app or unofficial flatpack)
+
 ## [37.0] - 2022-12-06
 
 ### Changed

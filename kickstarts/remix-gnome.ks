@@ -23,4 +23,3 @@ part / --size 8500
 
 %include mixins/development-gnome.ks
 %include mixins/domain-gnome.ks
-%include mixins/teams.ks
