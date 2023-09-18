@@ -39,6 +39,7 @@ anaconda-live
 # https://fedoraproject.org/wiki/Changes/RemoveDeviceMapperMultipathFromWorkstationLiveCD
 -fcoe-utils
 -device-mapper-multipath
+-sdubby
 
 # Need aajohan-comfortaa-fonts for the SVG rnotes images
 aajohan-comfortaa-fonts
