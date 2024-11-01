@@ -1,4 +1,4 @@
-FROM fedora:38
+FROM fedora:41
 
 RUN dnf install -y lorax-lmc-novirt vim-minimal pykickstart livecd-tools make && dnf clean all
 
