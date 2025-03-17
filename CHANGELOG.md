@@ -1,7 +1,10 @@
-## [41.0] - 2024-11-01
+## [41.0] - 2024-03-17
 
 ### Changed
 - Fedora 41.
+
+### Added
+ - GsConnect for mobile phone integration
 
 ## [38.0] - 2023-05-22
 

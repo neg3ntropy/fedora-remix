@@ -30,6 +30,10 @@ brasero
 libreoffice-draw
 file-roller-nautilus
 
+# mobile integration
+gnome-shell-extension-gsconnect
+nautilus-gsconnect
+
 # tools
 gparted
 seahorse
