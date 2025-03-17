@@ -4,7 +4,7 @@
 
 %include fedora-live-workstation.ks
 
-part / --size 8500
+# part / --size 8700 # maintained in fedora-live-base to avoid warning
 
 %include mixins/desktop-gnome.ks
 

@@ -10,7 +10,7 @@
 #
 #include snippets/packagekit-cached-metadata.ks
 
-part / --size 8576
+# part / --size 8576
 
 %packages
 gnome-initial-setup
