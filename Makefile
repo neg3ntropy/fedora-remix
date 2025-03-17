@@ -53,7 +53,8 @@ else
 
 %:
 	podman run --privileged --pid=host --net=host --ipc=host --uts=host -v /dev:/dev \
-		-v "$(CURDIR):/spin/" -it --rm --name fedora-remix-builder $(BUILDER_IMG) \
+		-v "$(CURDIR):/spin/" -it --rm -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \
+		--name fedora-remix-builder $(BUILDER_IMG) \
 		DEVICE=$(DEVICE) USE_PODMAN=no $@
 
 .PHONY: %
