@@ -9,6 +9,7 @@
 gitg
 meld
 ghex
+tilix
 vim-X11
 wireshark
 

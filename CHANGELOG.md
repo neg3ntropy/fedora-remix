@@ -5,6 +5,7 @@
 
 ### Added
  - GsConnect for mobile phone integration
+ - zoxide, nmap, other tools in development
 
 ## [38.0] - 2023-05-22
 

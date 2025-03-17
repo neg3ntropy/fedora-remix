@@ -16,11 +16,14 @@ automake
 kernel-devel
 pkgconfig
 
-# tools
+# Tools
+bat
+nmap
 tesseract
 smem
 strace
 telnet
+zoxide
 
 %end
 
